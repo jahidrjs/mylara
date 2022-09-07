@@ -62,3 +62,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+### Docker list containers
+docker ps
+
+### pull an image or a repository from a register
+docker pull
+
+### Push an image or a repository to an registry
+docker push
+### Rename a container
+docker rename
+
+### Stop All running container in docker
+docker kill $(docker ps -q)
+
+### Remove All Docker Containers
+docker rm $(docker ps -a -q)
+
+### Remove All Docker Images
+docker rmi $(docker images -q)
